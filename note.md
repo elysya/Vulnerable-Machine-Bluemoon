@@ -53,7 +53,7 @@
 
       I used a QR online decoder to decode the QR and gained the user credentials.
 
-1.  **GAIN ACCESS**
+3.  **GAIN ACCESS**
 
    <img width="497" height="353" alt="image" src="https://github.com/user-attachments/assets/33ffc8de-431e-4d47-8930-51907ca65c65" />
 
@@ -95,7 +95,7 @@
 
       Use a vulnerable sudo script for vertical privilege escalation from robin to jerry to view the feedback.sh file.
 
-1.  **MAINTAIN ACCESS**
+4.  **MAINTAIN ACCESS**
 
 - cat /home/jerry/user2.txt
 
@@ -103,7 +103,7 @@
 
       Type cat /home/jerry/user2.txt in the feedback section. Then, we obtained the second flag from home directory of jerry.
 
-1.  **ESCALATE PRIVILEGES**
+5.  **ESCALATE PRIVILEGES**
 
 - id
 - docker run -v /:/mnt –rm -it alpine cat /mnt/root/root.txt
@@ -112,4 +112,4 @@
 
       Use the id to check jerry’s profile and discovered he belong to the docker group. Then I used a docker command to trick the system into letting me see the forbidden Root folder which let me read the final flag.
 
-1.  **CLEAR TRACKS**: history -c
+6.  **CLEAR TRACKS**: history -c
