@@ -21,7 +21,7 @@
 
    | Tool | Screenshot | Description |
 | :--- | :--- | :--- |
-   | |<img width="497" height="353" alt="image" src="https://github.com/user-attachments/assets/33ffc8de-431e-4d47-8930-51907ca65c65" /> <img width="513" height="76" alt="image" src="https://github.com/user-attachments/assets/b9417048-421d-4b04-9cae-f2c6444b9897" />  | Login to FTP with the given credentials and list down the files (information.txt and p_lists.txt). |
+   |ftp 192.168.56.101 and ls |<img width="497" height="353" alt="image" src="https://github.com/user-attachments/assets/33ffc8de-431e-4d47-8930-51907ca65c65" /> <img width="513" height="76" alt="image" src="https://github.com/user-attachments/assets/b9417048-421d-4b04-9cae-f2c6444b9897" />  | Login to FTP with the given credentials and list down the files (information.txt and p_lists.txt). |
 | cat information.txt |<img width="513" height="106" alt="image" src="https://github.com/user-attachments/assets/924a30ec-6b1e-4e9f-8cec-7a3f2bd0ad71" /> | View the information.txt file. |
 | cat p_lists.txt | <img width="514" height="375" alt="image" src="https://github.com/user-attachments/assets/4b99e855-8a9f-4ba9-bbef-51609a191f49" />| View the p_lists.txt file where I got a list of possible passwords. |
 | hydra -l robin -P p_lists.txt ssh://192.168.56.101 | <img width="509" height="284" alt="image" src="https://github.com/user-attachments/assets/b6115e84-39ba-46d0-974a-e884744da00c" /> | Use the hydra to crack the password from the possible password lists. |
